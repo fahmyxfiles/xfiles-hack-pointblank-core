@@ -1,0 +1,24 @@
+﻿Build started 1/10/2018 2:22:43 AM.
+     1>Project "D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\XFilesHack-PB\XFilesHack-PB.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release - ToInternal\XFilesHack-PB.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release - ToInternal\\" /Fd"Release - ToInternal\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt XFilesHack.cpp
+         XFilesHack.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Windows\SysWOW64\AgPerfMon.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release - ToInternal\AgPerfMon.dll.intermediate.manifest" /MANIFESTUAC:"level='highestAvailable' uiAccess='false'" /DEBUG /PDB:"C:\Windows\SysWOW64\AgPerfMon.pdb" /MAP /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Windows\SysWOW64\AgPerfMon.lib" /MACHINE:X86 /DLL "Release - ToInternal\base64.obj"
+         "Release - ToInternal\HTTP.obj"
+         "Release - ToInternal\LoadDLL.obj"
+         "Release - ToInternal\md5.obj"
+         "Release - ToInternal\SMART.obj"
+         "Release - ToInternal\TrayIcon.obj"
+         "Release - ToInternal\XFilesHack.obj"
+            Creating library C:\Windows\SysWOW64\AgPerfMon.lib and object C:\Windows\SysWOW64\AgPerfMon.exp
+         Generating code
+     1>LINK : fatal error LNK1257: code generation failed
+     1>Done Building Project "D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\XFilesHack-PB\XFilesHack-PB.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.66

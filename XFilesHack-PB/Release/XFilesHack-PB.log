@@ -1,0 +1,36 @@
+﻿Build started 4/17/2018 1:54:06 PM.
+     1>Project "D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\XFilesHack-PB\XFilesHack-PB.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\XFilesHack-PB.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\XFilesHack-PB.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt base64.cpp HTTP.cpp LoadDLL.cpp md5.cpp SMART.cpp XFilesHack.cpp
+         base64.cpp
+         HTTP.cpp
+         LoadDLL.cpp
+         md5.cpp
+     1>md5.cpp(341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         SMART.cpp
+         XFilesHack.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\Release\XFilesHack-PB.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\XFilesHack-PB.dll.intermediate.manifest" /MANIFESTUAC:"level='highestAvailable' uiAccess='false'" /DEBUG /PDB:"D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\Release\XFilesHack-PB.pdb" /MAP /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\Release\XFilesHack-PB.lib" /MACHINE:X86 /DLL Release\base64.obj
+         Release\HTTP.obj
+         Release\LoadDLL.obj
+         Release\md5.obj
+         Release\SMART.obj
+         Release\XFilesHack.obj
+         Generating code
+         Finished generating code
+         XFilesHack-PB.vcxproj -> D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\Release\XFilesHack-PB.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\Release\XFilesHack-PB.dll;#2" /manifest "Release\XFilesHack-PB.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\XFilesHack-PB.unsuccessfulbuild".
+         Touching "Release\XFilesHack-PB.lastbuildstate".
+     1>Done Building Project "D:\GameHack\Base & Tools\Base\VS2010\PB\NEWV5\XFilesHack-PB\XFilesHack-PB\XFilesHack-PB.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.92

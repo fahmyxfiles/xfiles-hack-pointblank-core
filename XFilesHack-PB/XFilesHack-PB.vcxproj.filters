@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{8c275b54-fee0-4375-8fa2-1153ceb3e745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{da075e6c-f8bf-4962-9873-d73c5e4b984a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hack">
+      <UniqueIdentifier>{0972855f-7475-459f-a1da-0140a3ff7557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AddyLogger">
+      <UniqueIdentifier>{c5ddb531-c041-4243-b891-90c5acd76c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FeatureStruct">
+      <UniqueIdentifier>{8ca3797b-628b-41f0-b5e5-1a70b6411f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Direct3D">
+      <UniqueIdentifier>{209a4bef-6cd3-432c-8da1-3ec6e852896b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESP">
+      <UniqueIdentifier>{b354535d-0e0d-48ac-aca0-720e01b3aa29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AimAssist">
+      <UniqueIdentifier>{ff2a866b-301f-4965-ae21-4981438aa4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XFilesHack">
+      <UniqueIdentifier>{ce6743ca-6f59-43c3-9516-4eaabb728e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XFilesHack\HTTPClient">
+      <UniqueIdentifier>{448e2d20-e334-416d-ae21-fa63c0eb0d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XFilesHack\SMART">
+      <UniqueIdentifier>{6432b757-6766-40f4-9482-d56803b92289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XFilesHack\MD5">
+      <UniqueIdentifier>{6fbb818a-431e-4144-a15c-13626f8598e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XFilesHack\Base64">
+      <UniqueIdentifier>{2d1bdfa2-1fba-417d-a0f6-0f58ed210f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FFPlay">
+      <UniqueIdentifier>{81c138e4-1315-4d20-a9e6-693900dfb5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CrashHandler">
+      <UniqueIdentifier>{3a90dd46-45e5-41c2-88fc-e292fa4ccb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{ea6719ef-4f2a-41ce-87f8-72fc05132f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\SpucEngine Menu">
+      <UniqueIdentifier>{1590b1e9-6137-45c7-8a32-6a9c821b5ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\XFilesMenu">
+      <UniqueIdentifier>{a8413788-1257-4ec7-99a6-ea72061f26bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\CoopMenu">
+      <UniqueIdentifier>{6cb0080d-469b-4165-a1a4-0a5f87b0fbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AddOn">
+      <UniqueIdentifier>{7865bfd9-a531-41f0-976d-eadcdfdff029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AddOn\LoadDll">
+      <UniqueIdentifier>{4ca46270-f5de-4f1d-9e90-836d7ddd8804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\XNN Menu">
+      <UniqueIdentifier>{60a78472-91b0-4b89-be9b-177b02c9ed08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XFilesHack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTP.cpp">
+      <Filter>Source Files\XFilesHack\HTTPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="SMART.cpp">
+      <Filter>Source Files\XFilesHack\SMART</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files\XFilesHack\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Source Files\XFilesHack\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDLL.cpp">
+      <Filter>Source Files\AddOn\LoadDll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XFilesHack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="directInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddyFunctions.h">
+      <Filter>Source Files\AddyLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="AddyLogger.h">
+      <Filter>Source Files\AddyLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="AddyStruct.h">
+      <Filter>Source Files\AddyLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="HackFunctions.h">
+      <Filter>Source Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="HackLoop.h">
+      <Filter>Source Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureStruct.h">
+      <Filter>Source Files\FeatureStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Source Files\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3DMath.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenu.h">
+      <Filter>Source Files\Menu\XFilesMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Menu\XFilesMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ESPLoop.h">
+      <Filter>Source Files\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="ESPFunctions.h">
+      <Filter>Source Files\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingTools.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="HackDefines.h">
+      <Filter>Source Files\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistLoop.h">
+      <Filter>Source Files\AimAssist</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistFunctions.h">
+      <Filter>Source Files\AimAssist</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP.h">
+      <Filter>Source Files\XFilesHack\HTTPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="XFilesHackV5SDK.h">
+      <Filter>Source Files\XFilesHack</Filter>
+    </ClInclude>
+    <ClInclude Include="SMART.h">
+      <Filter>Source Files\XFilesHack\SMART</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Source Files\XFilesHack\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Source Files\XFilesHack\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="SpucEngine\cMenu.h">
+      <Filter>Source Files\Menu\SpucEngine Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SpucEngine\Menu.h">
+      <Filter>Source Files\Menu\SpucEngine Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SpucEngine\Color.h">
+      <Filter>Source Files\Menu\SpucEngine Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SpucEngine\Draw.h">
+      <Filter>Source Files\Menu\SpucEngine Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="FFPlayInterface.h">
+      <Filter>Source Files\FFPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeCutor.h">
+      <Filter>Source Files\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="Coop\cMenu.h">
+      <Filter>Source Files\Menu\CoopMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Coop\Menu.h">
+      <Filter>Source Files\Menu\CoopMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="BugTrap.h">
+      <Filter>Source Files\CrashHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadDLL.h">
+      <Filter>Source Files\AddOn\LoadDll</Filter>
+    </ClInclude>
+    <ClInclude Include="XNNMenu\Menu.h">
+      <Filter>Source Files\Menu\XNN Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Internal.h">
+      <Filter>Source Files\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalDll.h">
+      <Filter>Source Files\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="WatcherScript.h">
+      <Filter>Source Files\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="Signaturer.h">
+      <Filter>Source Files\AddOn</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
